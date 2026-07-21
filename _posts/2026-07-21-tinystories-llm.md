@@ -2,6 +2,9 @@
 layout: post
 title: "What a 30M-Parameter Language Model Taught Me About Training LLMs"
 date: 2026-07-21
+permalink: /tinystories-llm/
+redirect_from:
+  - /2026/07/21/tinystories-llm.html
 excerpt: >-
   I built a decoder-only transformer from scratch and trained it on TinyStories
   on a single free GPU. The interesting part wasn't the model — it was

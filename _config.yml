@@ -26,6 +26,7 @@ header_pages:
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-redirect-from
 
 # Don't build these into the site
 exclude:
