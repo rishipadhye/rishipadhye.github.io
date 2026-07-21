@@ -1,0 +1,34 @@
+title: Rishi Padhye
+tagline: Building and understanding ML systems from scratch
+description: >-
+  Notes and write-ups on machine learning — building transformers and training
+  language models from the ground up, and the experiments along the way.
+author:
+  name: Rishi Padhye
+  email: rishipadhye@gmail.com
+
+# Free GitHub Pages user site: served at https://rishipadhye.github.io
+url: "https://rishipadhye.github.io"
+baseurl: ""
+
+theme: minima
+
+# minima footer / social links
+github_username: rishipadhye
+minima:
+  social_links:
+    - { platform: github, user_url: "https://github.com/rishipadhye" }
+
+# Show the site nav; the About/Home come from minima defaults
+header_pages:
+  - index.md
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Don't build these into the site
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
